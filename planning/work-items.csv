@@ -1,0 +1,19 @@
+item_id,module_id,depends_on,effort_points,ready,summary
+WI-101,CORE,-,3,YES,Bootstrap telemetry
+WI-102,EDGE,WI-101,5,YES,Route telemetry
+WI-103,UI,WI-102;WI-101,2,YES,Render dashboard
+WI-104,OPS,-,4,NO,Rotate credentials
+WI-105,CORE,WI-104,1,YES,Publish credential probe
+WI-106,EDGE,WI-107,2,YES,Open relay channel
+WI-107,EDGE,WI-106,3,YES,Close relay handshake
+WI-108,UI,WI-106,2,YES,Display relay health
+WI-109,GHOST,-,1,YES,Map phantom adapter
+WI-110,CORE,WI-999,2,YES,Bind absent contract
+WI-111,OPS,-,01,YES,Normalize runbook
+WI-112,UI,-,2,MAYBE,Refresh console palette
+WI-113,CORE,-,2,YES,First duplicate payload
+WI-113,OPS,WI-101,7,YES,Second duplicate payload
+WI-114,CORE,WI-109,2,YES,Bridge phantom adapter
+WI-115,OPS,WI-101,6,YES,Automate deployment gate
+WI-116,UI,WI-102;WI-115,1,YES,Expose release controls
+WI-117,EDGE,WI-117,1,YES,Loop local handshake

@@ -1,0 +1,5 @@
+module_id,module_name,owner
+CORE,Core Runtime,Imani
+EDGE,Edge Gateway,Pavel
+OPS,Operations,Noor
+UI,Operator Console,Lian
