@@ -1,0 +1,5 @@
+module_id,module_name,scheduled_items,scheduled_points,deferred_items,blocked_items
+CORE,Core Runtime,1,3,0,2
+EDGE,Edge Gateway,1,5,0,2
+OPS,Operations,1,6,1,0
+UI,Operator Console,2,3,0,1
